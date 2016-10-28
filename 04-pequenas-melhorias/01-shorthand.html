@@ -14,18 +14,16 @@
     const person = {
         firstName,
         surname,
-        age
+        age,
+
+        hello() {
+            console.log('Hello!')
+        }
     };
 
-    const person2 = {
-        firstName: 'Jonas',
-        surname: 'Mendes',
-        age: 22
-    }
-    
-    const team = { person, person2 };
+    console.log(person);
 
-    console.log(team)
+    person.hello();
 
 </script>
 </html>
