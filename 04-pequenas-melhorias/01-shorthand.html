@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>01 - Shorthand Properties</title>
+</head>
+<body>
+</body>
+
+<script>
+    let firstName = 'Willian';
+    let surname = 'Justen';
+    let age = 26;
+
+    const person = {
+        firstName,
+        surname,
+        age
+    };
+
+    const person2 = {
+        firstName: 'Jonas',
+        surname: 'Mendes',
+        age: 22
+    }
+    
+    const team = { person, person2 };
+
+    console.log(team)
+
+</script>
+</html>
