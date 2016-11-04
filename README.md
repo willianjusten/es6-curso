@@ -1,5 +1,7 @@
 ## Módulo de ES6 para Curso de JS com TDD na Prática
 
+- [Link para Informações e compra](https://www.eventick.com.br/javascript-com-tdd-na-pratica)
+
 ### Ementa do Módulo
 
 - 1 - Introdução ao ES6 (3:10)
@@ -40,5 +42,3 @@
 - 14.2 - Introdução ao WeakSet (3:32)
 - 15.1 - Introdução ao Map (2:46)
 - 15.2 - Introdução ao WeakMap (3:56)
-
-- [Link para Informações e compra](https://www.eventick.com.br/javascript-com-tdd-na-pratica)
