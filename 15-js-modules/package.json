@@ -1,0 +1,22 @@
+{
+  "name": "15-js-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --colors --progress",
+    "watch": "npm run build -- --watch"
+  },
+  "keywords": [],
+  "author": "Willian Justen <willianjustenqui@gmail.com> (https://willianjusten.com.br/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015-native-modules": "^6.9.4",
+    "webpack": "^2.2.0-rc.2"
+  },
+  "dependencies": {
+    "ramda": "^0.22.1"
+  }
+}
