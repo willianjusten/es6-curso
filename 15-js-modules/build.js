@@ -63,11 +63,51 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ exports["b"] = sub;
+/* harmony export (binding) */ __webpack_require__.d(exports, "c", function() { return mult; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "d", function() { return div; });
+/* harmony export (binding) */ __webpack_require__.d(exports, "e", function() { return PI; });
+function sum(a, b) {
+    return a + b;
+}
+
+// named export
+// ter vários exports dentro de um 
+// msm arquivo
+// só pode chamar com o msm nome
+// import precisa das chaves { sub }
+function sub(a, b) {
+    return a - b;
+}
+
+function mult(a, b) {
+    return a * b;
+}
+
+function div(a, b) {
+    return a / b;
+}
+
+var PI = 3.14;
+
+
+
+// método principal
+// só pode ter um defaut por arquivo
+// importar com qq nome
+// não precisa utilizar as chaves
+/* harmony default export */ exports["a"] = sum;
+
+/***/ },
+/* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
 //  Ramda v0.22.1
@@ -8904,16 +8944,19 @@
 
 
 /***/ },
-/* 1 */
+/* 2 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ramda__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ramda__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ramda___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_ramda__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(0);
 // import método from 'biblioteca';
 // * carrega tudo da lib
 // as => alias para o método (novo nome)
+
+
 
 
 var arr1 = [1, 1, 1, 2, 2, 3, 4, 5, 6, 6];
@@ -8926,6 +8969,16 @@ var arr4 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_ramda__["uniq"])(ar
 console.log(arr3);
 
 console.log(arr4);
+
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["a" /* default */])(3, 2));
+
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["b" /* sub */])(3, 2));
+
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["c" /* multiplicacao */])(3, 2));
+
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["d" /* div */])(4, 2));
+
+console.log(__WEBPACK_IMPORTED_MODULE_1__utils__["e" /* PI */]);
 
 /***/ }
 /******/ ]);
