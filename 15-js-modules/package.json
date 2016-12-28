@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --colors --progress",
-    "watch": "npm run build -- --watch"
+    "watch": "npm run build -- --watch",
+    "server": "./node_modules/.bin/webpack-dev-server --inline --open"
   },
   "keywords": [],
   "author": "Willian Justen <willianjustenqui@gmail.com> (https://willianjusten.com.br/)",
@@ -14,7 +15,8 @@
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-es2015-native-modules": "^6.9.4",
-    "webpack": "^2.2.0-rc.2"
+    "webpack": "^2.2.0-rc.2",
+    "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
     "ramda": "^0.22.1",

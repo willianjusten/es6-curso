@@ -20,7 +20,7 @@ console.log(soma(3, 2));
 
 console.log(sub(3, 2));
 
-console.log(multiplicacao(3, 2));
+console.log(multiplicacao(7, 2));
 
 console.log(dividir(4, 2));
 
