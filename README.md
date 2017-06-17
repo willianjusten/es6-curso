@@ -1,9 +1,5 @@
 ![JS com TDD na prática](js-tdd.png)
 
-## Módulo de ES6 para Curso de JS com TDD na Prática
-
-- [Link para Informações e compra](https://www.sympla.com.br/javascript-com-tdd-na-pratica__146668)
-
 ### Ementa do Módulo
 
 - 1 - Introdução ao ES6 (3:10)
