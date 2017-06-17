@@ -1,5 +1,3 @@
-![JS com TDD na prática](js-tdd.png)
-
 ### Ementa do Módulo
 
 - 1 - Introdução ao ES6 (3:10)
